@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://github.com/meangpu/EnglabForFilmFormTest/",
+  base: "https://meangpu.github.io/EnglabForFilmFormTest/",
   build: {
     outDir: "../docs",
   },
