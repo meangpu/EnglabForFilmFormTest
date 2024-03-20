@@ -6,7 +6,9 @@ import "./index.css";
 
 const UnitList: React.FC<{ units: Unit[] }> = ({ units }) => {
   return (
-    <div>{units.map((unit, index) => UnitDataContainer(unit, index))}</div>
+    <div className='image-grid'>
+      {units.map((unit, index) => UnitDataContainer(unit, index))}
+    </div>
   );
 };
 
@@ -14,7 +16,7 @@ const DataContainer: React.FC = () => {
   const units: Unit[] = data.unitData;
   return (
     <>
-      <section className='image-grid'>
+      <section>
         <UnitList units={units} />
       </section>
     </>

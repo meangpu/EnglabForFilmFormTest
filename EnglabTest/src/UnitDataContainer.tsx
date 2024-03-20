@@ -6,20 +6,20 @@ const UnitDataContainer = (props: Unit, index: number) => {
       <a href={props.formUrl} target='_blank'>
         <div className='grid-item'>
           <img
+            src={props.previewImage}
+            width='1280'
+            height='720'
+            alt={props.unit}
+          />
+          {/* <img
             src={props.imageFile}
             width='512'
             height='512'
             alt={props.unit}
-          />
-          <img
-            src={props.previewImage}
-            width='512'
-            height='512'
-            alt={props.unit}
-          />
-          <p>
+          /> */}
+          <h1>
             {props.unit} {props.title}
-          </p>
+          </h1>
         </div>
       </a>
     </div>
