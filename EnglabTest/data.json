@@ -4,67 +4,78 @@
       "unit": "Unit 1",
       "title": "Introduction to Filming Equipment",
       "formUrl": "https://forms.gle/1FwLbUx7N3vivF9HA",
-      "imageFile": "Image/1.png"
+      "imageFile": "Image/1.png",
+      "previewImage": "Image/Preview/1.jpg"
     },
     {
       "unit": "Unit 2",
       "title": "Roles of People in Film Industry",
       "formUrl": "https://forms.gle/JwuMk6UfyjcuPiu96",
-      "imageFile": "Image/2.png"
+      "imageFile": "Image/2.png",
+      "previewImage": "Image/Preview/2.jpg"
     },
     {
       "unit": "Unit 3",
       "title": "Storyboard",
       "formUrl": "https://forms.gle/6C2swqWTMHVJbPLeA",
-      "imageFile": "Image/3.png"
+      "imageFile": "Image/3.png",
+      "previewImage": "Image/Preview/3.jpg"
     },
     {
       "unit": "Unit 4",
       "title": "Location",
       "formUrl": "https://forms.gle/bwqV2oB6iVUb8joq9",
-      "imageFile": "Image/4.png"
+      "imageFile": "Image/4.png",
+      "previewImage": "Image/Preview/4.jpg"
     },
     {
       "unit": "Unit 5",
       "title": "Casting",
       "formUrl": "https://forms.gle/vcUz4EkYYPgBBW4a8",
-      "imageFile": "Image/5.png"
+      "imageFile": "Image/5.png",
+      "previewImage": "Image/Preview/5.jpg"
     },
     {
       "unit": "Unit 6",
       "title": "Fitting",
       "formUrl": "https://forms.gle/4apMbcVEXA365vGQ8",
-      "imageFile": "Image/6.png"
+      "imageFile": "Image/6.png",
+      "previewImage": "Image/Preview/6.jpg"
     },
     {
       "unit": "Unit 7",
       "title": "Film Production",
       "formUrl": "https://forms.gle/fe5q1RTHQ4HGznVCA",
-      "imageFile": "Image/7.png"
+      "imageFile": "Image/7.png",
+      "previewImage": "Image/Preview/7.jpg"
     },
     {
       "unit": "Unit 8",
       "title": "Checking Footage and Sync Sound",
       "formUrl": "https://forms.gle/3Yvd4bwkVZGEmC2CA",
-      "imageFile": "Image/8.png"
+      "imageFile": "Image/8.png",
+      "previewImage": "Image/Preview/8.jpg"
     },
     {
       "unit": "Unit 9",
       "title": "Visual Effects and Color Grading",
       "formUrl": "https://forms.gle/YueAqH5Y2fKmcBnVA",
-      "imageFile": "Image/9.png"
+      "imageFile": "Image/9.png",
+      "previewImage": "Image/Preview/9.jpg"
     },
     {
       "unit": "Unit 10",
       "title": "Video Editing and Sound Mixing",
       "formUrl": "https://forms.gle/Q5fESYJNAEA2WkMq6",
-      "imageFile": "Image/10.png"
+      "imageFile": "Image/10.png",
+      "previewImage": "Image/Preview/10.jpg"
     },
     {
       "unit": "final-test",
       "title": null,
       "formUrl": "https://forms.gle/ccNvJc2U7qxR4jGA9",
-      "imageFile": "Image/final.png"
+      "imageFile": "Image/final.png",
+      "previewImage": "Image/Preview/final.jpg"
     }
   ]
 }
