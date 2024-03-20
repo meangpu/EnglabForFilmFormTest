@@ -4,6 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 section,
@@ -19,21 +20,18 @@ header {
   margin: 20px 20px 40px 40px;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  margin-right: 15px;
-}
-
-nav a {
+a.nav-link:link {
   text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
+}
+a.nav-link:visited {
+  color: #72ff95;
+  text-decoration: none;
+}
+a.nav-link:hover {
+  text-decoration: none;
+}
+a.nav-link:active {
+  text-decoration: none;
 }
 
 .footer {
@@ -66,18 +64,4 @@ nav a {
 .grid-item img:hover {
   transform: rotateY(2deg) rotateX(2deg) scale(1.005);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
-}
-
-a.nav-link:link {
-  text-decoration: none;
-}
-a.nav-link:visited {
-  color: #72ff95;
-  text-decoration: none;
-}
-a.nav-link:hover {
-  text-decoration: none;
-}
-a.nav-link:active {
-  text-decoration: none;
 }
