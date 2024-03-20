@@ -55,10 +55,6 @@ a:visited {
   color: rgb(34, 156, 255);
 }
 
-a:hover {
-  color: rgba(255, 255, 255, 0.986);
-}
-
 .footer {
   background-color: #333333;
   text-align: center;
