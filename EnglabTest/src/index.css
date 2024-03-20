@@ -86,8 +86,20 @@ a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .image-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 373px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: medium;
   }
 }
