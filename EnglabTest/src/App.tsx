@@ -12,15 +12,23 @@ const UnitList: React.FC<{ units: Unit[] }> = ({ units }) => {
   );
 };
 
-const DataContainer: React.FC = () => {
+const App: React.FC = () => {
   const units: Unit[] = data.unitData;
   return (
     <>
       <section>
+        <div className='center'>
+          <img
+            src='Image/form.png'
+            className='inlineImage'
+            alt='googleFormImage'
+          />
+          <h1>CHOOSE THE EXAM YOU WANT TO TEST! </h1>
+        </div>
         <UnitList units={units} />
       </section>
     </>
   );
 };
 
-export default DataContainer;
+export default App;

@@ -17,9 +17,9 @@ const UnitDataContainer = (props: Unit, index: number) => {
             height='512'
             alt={props.unit}
           /> */}
-          <h1>
+          <h3>
             {props.unit} {props.title}
-          </h1>
+          </h3>
         </div>
       </a>
     </div>
