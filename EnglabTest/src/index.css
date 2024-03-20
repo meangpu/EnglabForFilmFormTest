@@ -40,7 +40,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(43, 255, 113);
+  color: rgb(34, 156, 255);
 }
 
 a:hover {
@@ -76,5 +76,18 @@ a:hover {
 
 .grid-item img:hover {
   transform: rotateY(2deg) rotateX(2deg) scale(1.005);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 20px rgba(118, 161, 255, 0.836);
+}
+
+/* Media queries for responsive design */
+@media (max-width: 992px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
