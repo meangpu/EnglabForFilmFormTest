@@ -1,10 +1,6 @@
-const DataContainer = (props: {
-  formUrl: string;
-  imageFile: string;
-  unit: string;
-  previewImage: string;
-  title: string;
-}) => {
+import { Unit } from "./Unit";
+
+const UnitDataContainer = (props: Unit) => {
   return (
     <div>
       <a href={props.formUrl} target='_blank'>
@@ -22,7 +18,7 @@ const DataContainer = (props: {
             alt={props.unit}
           />
           <p>
-            `${props.unit} ${props.title}`
+            {props.unit} {props.title}
           </p>
         </div>
       </a>
@@ -30,4 +26,4 @@ const DataContainer = (props: {
   );
 };
 
-export default DataContainer;
+export default UnitDataContainer;
