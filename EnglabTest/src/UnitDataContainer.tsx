@@ -1,8 +1,8 @@
 import { Unit } from "./Unit";
 
-const UnitDataContainer = (props: Unit) => {
+const UnitDataContainer = (props: Unit, index: number) => {
   return (
-    <div>
+    <div key={index}>
       <a href={props.formUrl} target='_blank'>
         <div className='grid-item'>
           <img

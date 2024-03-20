@@ -5,7 +5,9 @@ import UnitDataContainer from "./UnitDataContainer";
 import "./index.css";
 
 const UnitList: React.FC<{ units: Unit[] }> = ({ units }) => {
-  return <div>{units.map((unit) => UnitDataContainer(unit))}</div>;
+  return (
+    <div>{units.map((unit, index) => UnitDataContainer(unit, index))}</div>
+  );
 };
 
 const DataContainer: React.FC = () => {
